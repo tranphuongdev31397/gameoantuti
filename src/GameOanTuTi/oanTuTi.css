@@ -1,0 +1,48 @@
+.oantuti-container{
+    background-image: url(./bgGame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.card{
+    background:transparent;
+    align-items: center;
+}
+.card .card-img-top{
+    width: 200px;
+}
+.speech-bubble {
+	position: relative;
+	background: #45D994;
+	border-radius: .4em;
+	display: inline-flex;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #45D994;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
+}
+.block-choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:white;
+    width:100%;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+.reverse-image{
+    transform: scaleX(-1);
+}
